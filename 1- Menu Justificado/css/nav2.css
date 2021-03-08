@@ -1,0 +1,21 @@
+#nav2 {
+    background-color: deepskyblue;
+    text-transform: uppercase;
+    color: white;
+}
+#nav2 ul{
+    display: table;
+    margin: auto;
+    border-collapse: separate;
+    /* Ojo border-spacing: horizontal - vertical */
+    border-spacing: 3em 1em;
+    width: 100%;
+    table-layout: fixed;
+}
+#nav2 li{
+    display: table-cell;
+    text-align: center;
+    border: 1px solid;
+    padding: 1em 0;
+    border-radius: 4px;
+}

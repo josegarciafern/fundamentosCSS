@@ -1,0 +1,16 @@
+#nav1 {
+    background-color: deepskyblue;
+    text-transform: uppercase;
+    color: white;
+}
+#nav1 ul{
+        display: table;
+        margin: auto;
+        width: 100%;
+        table-layout: fixed;
+}
+#nav1 li{
+    display: table-cell;
+    text-align: center;
+    padding: 1em 0;
+}

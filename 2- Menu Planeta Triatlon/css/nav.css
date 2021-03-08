@@ -1,0 +1,36 @@
+nav{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    border-top: 7px solid #FFCC00;
+  }
+nav ul{
+    display: table;
+    table-layout:fixed;
+    width:100%;
+    border-spacing: 2rem 0;
+ }
+
+nav li{
+   display: table-cell;
+   text-align:center;  
+   /* vertical-align: middle; */
+   /* border: 1px solid; */
+ }
+
+nav a{
+   padding: 1em .5em;
+   display: inline-block;
+   border-bottom: 4px solid transparent;
+   transition: border-bottom .4s ease;
+   
+ }
+
+ nav a:hover {
+    border-bottom: 4px solid #FFCC00;
+ }
+  
+ main {
+   background-color: gray;
+   height: 20rem;
+ } 

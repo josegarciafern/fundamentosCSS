@@ -1,0 +1,21 @@
+#nav3 {
+    color: deepskyblue;
+}
+#nav3 ul{
+    display: table;
+    border-collapse: collapse;
+    margin: auto;
+    width: 90%;
+    table-layout: fixed;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px deepskyblue ;
+}
+#nav3 li{
+    display: table-cell;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#nav3 li:not(:last-child) {
+    border-right: 1px solid;
+}
