@@ -1,0 +1,13 @@
+
+div{
+  background-color: lighten( #358, 20%);
+  color: white;
+  padding: 3em;
+  column-count: 3;
+  column-gap: 3rem;
+  // text-align: justify;
+  //No poner margin-top genera hueco
+  p{
+    margin-bottom: 1em;
+  }
+}

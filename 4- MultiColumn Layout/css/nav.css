@@ -1,0 +1,14 @@
+div {
+  background-color: #5e86c3;
+  color: white;
+  padding: 3em;
+  -webkit-column-count: 3;
+          column-count: 3;
+  -webkit-column-gap: 3rem;
+          column-gap: 3rem;
+}
+
+div p {
+  margin-bottom: 1em;
+}
+/*# sourceMappingURL=nav.css.map */
