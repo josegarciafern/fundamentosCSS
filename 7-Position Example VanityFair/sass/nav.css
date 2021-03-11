@@ -1,0 +1,93 @@
+body {
+  background-color: #F5F3F4;
+}
+
+.wrapper {
+  padding-top: 5rem;
+  width: 90%;
+  max-width: 75rem;
+  background-color: white;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+section {
+  position: relative;
+  z-index: 0;
+}
+
+.veil {
+  opacity: 0;
+  -webkit-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+  display: block;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 2em;
+  text-align: center;
+}
+
+.fa-video-camera {
+  padding-top: 1em;
+}
+
+.text {
+  font-family: "Pathway Gothic One";
+  color: red;
+  text-transform: uppercase;
+  width: 60%;
+  margin: .5em auto;
+}
+
+.box {
+  width: 30%;
+  height: 12.5rem;
+  border: 3px solid white;
+  -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.box:nth-child(1) {
+  left: -1%;
+  -webkit-transform: rotate(-7deg);
+          transform: rotate(-7deg);
+  background-image: url(http://portfolio.hoyheaprendido.es/vanityfair-videochannel-desktop/images/grid1.jpg);
+}
+
+.box:nth-child(2) {
+  left: 18%;
+  top: 1%;
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+  z-index: 2;
+  background-image: url(http://portfolio.hoyheaprendido.es/vanityfair-videochannel-desktop/images/grid2.jpg);
+}
+
+.box:nth-child(3) {
+  left: 46%;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+  z-index: 1;
+  background-image: url(http://portfolio.hoyheaprendido.es/vanityfair-videochannel-desktop/images/grid3.jpg);
+}
+
+.box:nth-child(4) {
+  right: -1%;
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+  background-image: url(http://portfolio.hoyheaprendido.es/vanityfair-videochannel-desktop/images/grid4.jpg);
+}
+
+.box:hover {
+  z-index: 3;
+}
+
+.box:hover .veil {
+  opacity: 1;
+}
+/*# sourceMappingURL=nav.css.map */

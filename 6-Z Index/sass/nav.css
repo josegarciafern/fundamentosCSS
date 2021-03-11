@@ -1,0 +1,41 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card {
+  height: 20rem;
+  width: 15rem;
+  background-color: deepskyblue;
+  border: 10px solid #DDD;
+  color: white;
+  font-size: 3em;
+  padding: 1em;
+}
+
+.card:nth-child(2) {
+  position: absolute;
+  left: 8rem;
+  top: 5rem;
+  z-index: 1;
+}
+
+.card:nth-child(3) {
+  position: absolute;
+  left: 16rem;
+  top: 10rem;
+  z-index: 1;
+}
+
+.card:nth-child(4) {
+  position: absolute;
+  left: 24rem;
+  top: 15rem;
+}
+
+.card:nth-child(5) {
+  position: absolute;
+  left: 32rem;
+  top: 20rem;
+}
+/*# sourceMappingURL=nav.css.map */

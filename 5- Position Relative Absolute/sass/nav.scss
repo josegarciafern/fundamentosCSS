@@ -1,0 +1,59 @@
+.padre{
+  height: 30rem;
+  width: 70%;  
+  margin: 3rem auto 0;
+  background-color: lighten(grey,20%);
+  // position: relative;
+}
+
+.hijo{
+  height: 10rem;
+  width: 20%;
+  background-color: deepskyblue;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  line-height: 10rem;
+  border: 5px solid darken(deepskyblue, 20%);
+  
+}
+
+#hijo1{
+  // top: 3rem;
+  // left: 5rem;
+  // position: relative;
+  // top: -3rem;
+  // left: -5rem;
+  // position:absolute;
+  // top: 1rem;
+  // left: 4rem;
+  //Posicionado desde el padre el padre
+  // position relative y el hijo absolute
+  // position:absolute;
+  // top: 0;
+  // right: 0;
+  //Centrado respecto al padre
+  // position: absolute;
+  // right: 50%;
+  // top: 50%;
+  // margin-right: -5rem;
+  // margin-top: -5rem;
+  //Centrado respecto al padre
+  position: absolute;
+
+}
+
+#hijo2{
+  // right: 3rem;
+  // bottom: 5rem;
+  // position: relative;
+  // bottom: -3rem;
+  // right: -4rem;
+  // position: absolute;
+  // bottom: 5rem;
+  //Efecto Naipe
+  // position: relative;
+  // bottom: 5rem;
+  // left: 5rem;
+  //Efecto Naipe
+}
