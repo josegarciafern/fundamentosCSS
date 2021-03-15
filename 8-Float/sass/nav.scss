@@ -1,0 +1,49 @@
+span{
+    background-color: deepskyblue;
+}
+
+p{
+    // background-color: deepskyblue;
+    padding: 2em;
+    margin-bottom: 1em;
+    //Los parrafos pares
+    &:nth-of-type(odd){
+        background-color: deepskyblue;
+    }
+    //Los parrafos impares
+    &:nth-of-type(even){
+        background-color: whitesmoke;
+    }
+    //El segundo parrafo, no el segundo hijo que es lo que nos daría &:nth-child(2)
+    &:nth-of-type(2){
+        clear: right;
+    }
+}
+
+img{
+    float: right;
+}
+
+ul{
+    background-color: salmon;
+    //Tecnicas para limpiar el float y se pierda la altura( overflow o after)
+    overflow: hidden;
+    // &::after{
+    //     content: '';
+    //     display: block;
+    //     clear: both;
+    // }
+    
+    // color: white;
+}
+
+li{
+    float: left;
+    background-color: deepskyblue;
+    margin: 1em;
+}
+a{
+    display: block;
+    padding: .5em 1em;
+    
+}

@@ -1,0 +1,41 @@
+span {
+  background-color: deepskyblue;
+}
+
+p {
+  padding: 2em;
+  margin-bottom: 1em;
+}
+
+p:nth-of-type(odd) {
+  background-color: deepskyblue;
+}
+
+p:nth-of-type(even) {
+  background-color: whitesmoke;
+}
+
+p:nth-of-type(2) {
+  clear: right;
+}
+
+img {
+  float: right;
+}
+
+ul {
+  background-color: salmon;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  background-color: deepskyblue;
+  margin: 1em;
+}
+
+a {
+  display: block;
+  padding: .5em 1em;
+}
+/*# sourceMappingURL=nav.css.map */
